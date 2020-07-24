@@ -4,7 +4,7 @@ Program to track stars using a Yaesu GS232 rotator with Stellarium telescope con
 Build instructions
 ==================
 
-make all
+`make all`
 
 Command line options
 ====================
@@ -24,7 +24,7 @@ Typical Usage With Stellarium
 Run the program specifying the latitude and longitude of the rotator. Assuming
 you are in London:
 
-./gs232_star_tracker --latitude 51.507572 --longitude -0.127772 --serial-port /dev/ttyS2
+`./gs232_star_tracker --latitude 51.507572 --longitude -0.127772 --serial-port /dev/ttyS2`
 
 The program will then wait for RA/Dec of star to track from Stellarium.
 
@@ -44,7 +44,7 @@ Typical Usage Without Stellarium
 Run the program specifying the RA/Dec of the star to track. For example, to
 track the Pulsar B0329+54, from a location in Sydney:
 
-./gs232_star_tracker --ra 3.549819 --dec 54.5791666 --latitude -33.856322 --longitude 151.215297
+`./gs232_star_tracker --ra 3.549819 --dec 54.5791666 --latitude -33.856322 --longitude 151.215297`
 
 The program should star tracking the star immediately. You can still then
 connect via Stellarium to update the target star.
