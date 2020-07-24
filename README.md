@@ -9,14 +9,14 @@ make all
 Command line options
 ====================
 
---ra decimal_hours              - J2000 Right Ascension of star to track.
---dec decimal_hours             - J2000 Declination of star to track.
---latitude decimal_degress      - Latitude of rotator. Default is 51.507572 (for London).
---longitude decimal_degress     - Longitute of rotator. Default is -0.127772.
---update seconds                - Update interval of rotator in seconds. Default is 5.
---serial-port device            - Serial-port device name to use for connection to rotator. Default is /dev/ttyS0.
---ip-port port_number           - TCP/IP port number to listen for connections from Stellarium on. Default is 10001.
---verbose                       - Print out received and calculated coordinates.
+* `--ra decimal_hours`           - J2000 Right Ascension of star to track.
+* `--dec decimal_hours`          - J2000 Declination of star to track.
+* `--latitude decimal_degress`   - Latitude of rotator. Default is 51.507572 (for London).
+* `--longitude decimal_degress`  - Longitute of rotator. Default is -0.127772.
+* `--update seconds`             - Update interval of rotator in seconds. Default is 5.
+* `--serial-port device`         - Serial-port device name to use for connection to rotator. Default is /dev/ttyS0.
+* `--ip-port port_number`        - TCP/IP port number to listen for connections from Stellarium on. Default is 10001.
+* `--verbose`                    - Print out received and calculated coordinates.
 
 Typical Usage With Stellarium
 =============================
